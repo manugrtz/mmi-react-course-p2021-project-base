@@ -1,13 +1,15 @@
 import React from 'react'
 import Menu from 'components/Menu'
-import classes from './index.scss'
+// import { SpotifyContext } from 'components/SpotifyWrapper'
+import styles from './Home.module.css'
 
 const Home = () => {
+  // const { deviceId, token } = useContext(SpotifyContext);
   return (
-    <div className={classes.container}>
+    <div className={styles.container}>
       <Menu />
 
-      Notre page d'accueil
+      Page d'accueil
     </div>
   )
 }
