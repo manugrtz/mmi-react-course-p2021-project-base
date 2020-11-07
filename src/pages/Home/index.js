@@ -8,8 +8,11 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Menu />
-
       Page d'accueil
+
+      -- 
+
+      Home change
     </div>
   )
 }
